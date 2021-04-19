@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+$font: "Shadows Into Light", sans-serif;
+
+.todo {
+  font-family: $font;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.remove {
+  margin: 8px;
+  color: red;
+  cursor: pointer;
+  font-weight: bold;
+}
